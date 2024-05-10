@@ -1,7 +1,7 @@
 export default function EmailButton() {    
     const handleEmailButtonClick = () => {
-        const emailAddress = 'receiver-email@example.com'; // Replace with your actual email address
-        const subject = 'Subject-of-the-email'; // Replace with the desired subject
+        const emailAddress = 'receiver-email@example.com'; // Replace with your actual email address.
+        const subject = 'Subject-of-the-email'; // Replace with the desired subject.
         const mailtoLink = `mailto:${emailAddress}?subject=${encodeURIComponent(subject)}`;
         window.location.href = mailtoLink;
     }
